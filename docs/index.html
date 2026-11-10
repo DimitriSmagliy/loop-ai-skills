@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Loop AI | Free Claude Code Skills</title>
+<meta name="description" content="Six free, safe, single-purpose Claude Code skills from the Loop AI channel. One command to install.">
+<meta property="og:title" content="Loop AI | Free Claude Code Skills">
+<meta property="og:description" content="Six free, safe skills: handoff, secret-guard, ship-check, explain-like-new, deny-rules, cost-saver.">
+<link rel="icon" href="avatar.png">
+<style>
+:root{--bg:#07070d;--card:#10101c;--line:#23233a;--tx:#ecedf6;--mut:#9a9cb8;--a:#33d6f5;--b:#8b5cf6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 64px}
+header{text-align:center;margin-bottom:32px}
+header img{width:96px;height:96px;border-radius:50%}
+h1{font-size:2rem;margin:.6em 0 .2em;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+p.lead{color:var(--mut);margin:0 auto;max-width:520px}
+h2{margin:2em 0 .6em;font-size:1.2rem}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto;font-size:.85rem}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card b{color:var(--a)}
+.card span{display:block;color:var(--mut);font-size:.9rem;margin-top:4px}
+a{color:var(--a)}
+.btn{display:inline-block;margin-top:18px;padding:12px 22px;border-radius:999px;background:linear-gradient(90deg,var(--a),var(--b));color:#07070d;font-weight:700;text-decoration:none}
+footer{margin-top:48px;color:var(--mut);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<main>
+<header>
+<img src="avatar.png" alt="Loop AI logo" width="96" height="96">
+<h1>Loop AI Skills</h1>
+<p class="lead">Six free, safe, single-purpose skills for Claude Code. One per video. No telemetry, no network calls, nothing destructive.</p>
+<a class="btn" href="https://github.com/DimitriSmagliy/loop-ai-skills">Get the free pack on GitHub</a>
+</header>
+
+<h2>Install in one command</h2>
+<pre><code>git clone https://github.com/DimitriSmagliy/loop-ai-skills &amp;&amp; mkdir -p ~/.claude/skills &amp;&amp; cp -r loop-ai-skills/plugin/skills/* ~/.claude/skills/</code></pre>
+
+<h2>The six skills</h2>
+<div class="grid">
+<div class="card"><b>/handoff</b><span>Write HANDOFF.md so a fresh session continues where you stopped.</span></div>
+<div class="card"><b>/secret-guard</b><span>Scan for committed secrets and check settings.local.json is gitignored.</span></div>
+<div class="card"><b>/ship-check</b><span>Pre-commit checklist. Verdict: SHIP or FIX FIRST.</span></div>
+<div class="card"><b>/explain-like-new</b><span>Explain an unfamiliar repo and build a CODEMAP.md.</span></div>
+<div class="card"><b>/deny-rules</b><span>Merge sensible deny rules into your settings, explained one by one.</span></div>
+<div class="card"><b>/cost-saver</b><span>Find where your context and tokens go, and trim them.</span></div>
+</div>
+
+<h2>Read before you install</h2>
+<p>Every <code>SKILL.md</code> is short on purpose and lists its <code>allowed-tools</code>. Nothing runs commits, pushes, <code>rm -rf</code>, history rewrites or installs.</p>
+
+<footer>
+Loop AI &middot; Claude Code skills and AI news in 30 seconds &middot; MIT licensed<br>
+Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic.
+</footer>
+</main>
+</body>
+</html>

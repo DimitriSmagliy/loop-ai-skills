@@ -1,0 +1,12 @@
+{
+  "name": "loop-ai",
+  "description": "Free Claude Code skills from the Loop AI channel",
+  "owner": { "name": "Loop AI" },
+  "plugins": [
+    {
+      "name": "loop-ai-skills",
+      "source": "./plugin",
+      "description": "Six free skills: handoff, secret-guard, ship-check, explain-like-new, deny-rules, cost-saver"
+    }
+  ]
+}

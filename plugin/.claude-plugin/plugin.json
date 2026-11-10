@@ -1,0 +1,7 @@
+{
+  "name": "loop-ai-skills",
+  "version": "1.0.0",
+  "description": "Six free Claude Code skills from the Loop AI channel: handoff, secret-guard, ship-check, explain-like-new, deny-rules, cost-saver.",
+  "author": { "name": "Loop AI" },
+  "license": "MIT"
+}
